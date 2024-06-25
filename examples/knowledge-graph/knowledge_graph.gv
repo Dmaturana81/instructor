@@ -1,0 +1,18 @@
+// Knowledge Graph
+digraph {
+	1 [label=Sales color="#ff7f0e"]
+	2 [label=Biotechs color="#1f77b4"]
+	3 [label="Understanding Biotechs" color="#1f77b4"]
+	4 [label="Building Relationships" color="#2ca02c"]
+	5 [label="Identifying Needs" color="#2ca02c"]
+	6 [label="Product Knowledge" color="#2ca02c"]
+	7 [label="Providing Value" color="#2ca02c"]
+	8 [label="Sales Techniques" color="#ff7f0e"]
+	1 -> 2 [label="Target Audience" color="#c7c7c7"]
+	2 -> 3 [label=Research color="#c7c7c7"]
+	2 -> 4 [label="Relationship Development" color="#c7c7c7"]
+	1 -> 5 [label="Understand Needs" color="#c7c7c7"]
+	1 -> 6 [label="Product Knowledge" color="#c7c7c7"]
+	1 -> 7 [label="Value Proposition" color="#c7c7c7"]
+	1 -> 8 [label=Techniques color="#c7c7c7"]
+}

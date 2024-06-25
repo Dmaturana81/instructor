@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+openai = ">=1.1.0"
+pydantic = "*"
+docstring-parser = "*"
+rich = "*"
+aiohttp = "*"
+instructor = {file = ".", editable = true}
+jupyter = "*"
+graphviz = "*"
+langchain = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.3"
